@@ -1,0 +1,77 @@
+.Carrousel{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/imagen.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    transition: 0.5s all ease;
+}
+
+.Carrousel::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.415);
+}
+
+.controls{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carrousel__Button{
+    width: 12px;
+    height: 12px;
+    margin: 0 7px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.Carrousel__Button-active{
+    width: 13px;
+    height: 13px;
+    margin: 0 7px;
+    border: 2px dashed rgb(235, 235, 235);
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    background: none;
+}
+
+.oculto{
+    display: none;
+}
+
+.img__error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small__carrousel{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    background-image: url(assets/imagen.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    transition: 0.5s all ease;
+    display: inline-block;
+}
