@@ -1,9 +1,9 @@
 {
   "name": "co-carrousels",
   "private": false,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "type": "module",
-  "main": "dist/index.jsx",
+  "main": "src/index.jsx",
   "repository": {
     "type": "git",
     "url": "https://github.com/SamuelVasquezGonzalez/co-carroulsels"
