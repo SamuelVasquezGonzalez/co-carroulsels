@@ -23,6 +23,7 @@ You can place the number of carousels you want without affecting performance and
 ## Instalation
 
 To start using the library, we must install the package with our npm command
+**make sure you have formatted your styles so you don't have any conflicts with the styles of the carousels**
 ```bash
 $ npm install co-carrousels
 ```
@@ -38,7 +39,7 @@ The `Full Carrousel`, `Small Carrousel` modules are the container components of 
 ### use this module if you want to use screen carousel
 
 ```js
-import { FullCarrousel, CoImage } from "./Carrousels";
+import { FullCarrousel, CoImage } from "co-carrousels";
 
 export default function MyComponent() {
     return (
@@ -62,7 +63,7 @@ the `controls` attribute receives `true` and `false`, with this attribute you ca
 ### Use this module if you want to use the small carousel that you can use anywhere in your application
 
 ```js
-import { SmallCarrousel, CoImage } from "./Carrousels";
+import { SmallCarrousel, CoImage } from "co-carrousels";
 
 export default function MyComponent() {
     return (
